@@ -1,0 +1,102 @@
+[
+    {
+        "cuotas": 1,
+        "interes_mensual": 0
+    },
+    {
+        "cuotas": 2,
+        "interes_mensual": 0
+    },
+    {
+        "cuotas": 3,
+        "interes_mensual": 0
+    },
+    {
+        "cuotas": 4,
+        "interes_mensual": 0.027
+    },
+    {
+        "cuotas": 5,
+        "interes_mensual": 0.027
+    },
+    {
+        "cuotas": 6,
+        "interes_mensual": 0.027
+    },
+    {
+        "cuotas": 7,
+        "interes_mensual": 0.027
+    },
+    {
+        "cuotas": 8,
+        "interes_mensual": 0.028
+    },
+    {
+        "cuotas": 9,
+        "interes_mensual": 0.028
+    },
+    {
+        "cuotas": 10,
+        "interes_mensual": 0.028
+    },
+    {
+        "cuotas": 11,
+        "interes_mensual": 0.028
+    },
+    {
+        "cuotas": 12,
+        "interes_mensual": 0.029
+    },
+    {
+        "cuotas": 13,
+        "interes_mensual": 0.029
+    },
+    {
+        "cuotas": 14,
+        "interes_mensual": 0.029
+    },
+    {
+        "cuotas": 15,
+        "interes_mensual": 0.029
+    },
+    {
+        "cuotas": 16,
+        "interes_mensual": 0.030
+    },
+    {
+        "cuotas": 17,
+        "interes_mensual": 0.030
+    },
+    {
+        "cuotas": 18,
+        "interes_mensual": 0.030
+    },
+    {
+        "cuotas": 19,
+        "interes_mensual": 0.030
+    },
+    {
+        "cuotas": 20,
+        "interes_mensual": 0.031
+    },
+    {
+        "cuotas": 21,
+        "interes_mensual": 0.031
+    },
+    {
+        "cuotas": 22,
+        "interes_mensual": 0.031
+    },
+    {
+        "cuotas": 23,
+        "interes_mensual": 0.032
+    },
+    {
+        "cuotas": 24,
+        "interes_mensual": 0.032
+    },
+    {
+        "cuotas": 24,
+        "interes_mensual": 0.032
+    }
+]

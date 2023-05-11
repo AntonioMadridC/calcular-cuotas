@@ -1,0 +1,68 @@
+body {
+    background-color: whitesmoke;
+}
+h1 {
+    font-size: 3rem;
+    font-weight:600;
+}
+h2 {
+    font-weight:500;
+}
+.textGradient {
+    /* Set the background color */
+    background: linear-gradient(to right, rgb(255, 94, 0), blue 100%);
+    /* Mask the color to the text, and remove the rest  */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Make the text fill color value transparent so the masked background color comes through */
+    -webkit-text-fill-color: transparent;
+    /* display: inline-block; */
+}
+
+label {
+    color: #4a38c7;
+    font-weight:500;
+    font-size: 1.25rem;
+}
+
+/* input {
+    border: none;
+    border-bottom: 3px solid #4a38c7;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+ */
+
+
+.form-control {
+   background: transparent;
+   border: none;
+   border-bottom: 1px solid #4a38c7;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   border-radius: 0;
+   color: purple;
+   font-size: 1.25rem;
+ }
+ 
+.form-control:focus {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   color: purple;
+   font-size: 1.25rem;
+ }
+
+button {
+    background: linear-gradient(to right, purple 0%, #284daa 100%);
+    border-radius: 5%;
+    color: white;
+    border: solid 2px blue;
+    width: 12rem;
+    height: 3rem;
+}
