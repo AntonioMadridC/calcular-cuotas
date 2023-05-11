@@ -41,7 +41,7 @@ fetch("assets/mock/intereses.json")
         }
 
         if(installments<1 || installments>25){
-            alert("numero de cuotas invalido debe estar entre 0-24")
+            alert("numero de cuotas invalido debe estar entre 1-24")
             return;
         }
 
@@ -61,6 +61,10 @@ fetch("assets/mock/intereses.json")
 
     function calcularInteres(base,installments, interest){
         //const M = (P * ir) / (1 - Math.pow(1 + ir, -n));
+        if (interest == 0) {
+            let cuota = base/installments
+            return cuota
+        }
         const cuotaMensual =(base*interest) /(1- Math.pow(1+ interest, -installments))
         return cuotaMensual;
     }
