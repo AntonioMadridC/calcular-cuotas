@@ -48,11 +48,7 @@ fetch("assets/mock/intereses.json")
         let intesesObj = intereses.find(i=>i.cuotas == installments)
         console.log(intesesObj);
 
-        /* document.getElementById("interest").value = `${Math.round(intesesObj.interes_mensual*1000)/10}%` */
-/*         document.getElementById("interest").value = `${math.evaluate(`${intesesObj.interes_mensual.toString}*100`)}%`
-         */
-        console.log(0.29*100);
-        document.getElementById("interest").value = `${intesesObj.interes_mensual*100}%`
+        document.getElementById("interest").value = `${Math.round(intesesObj.interes_mensual*1000)/10}%`
         //para obtener un decimal redondeado, multiplicar por 1000 y luego dividir por 10
 
         let resultado = calcularInteres(base, installments, intesesObj.interes_mensual)
